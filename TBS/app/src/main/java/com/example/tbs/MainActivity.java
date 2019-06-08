@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity  {
         Intent btncrcrear_cuenta = new Intent(this, crear_cuenta.class);
         startActivity(btncrcrear_cuenta);
     }
-
+    public void iniciar_sesion (View v){
+        Intent Iniciarsesion = new Intent(this, pagina_principal.class);
+        startActivity(Iniciarsesion);
+    }
 
 }
 

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".publicar_anuncio"></activity>
+        <activity android:name=".miperfil"></activity>
+        <activity android:name=".publicar_anuncio" />
         <activity android:name=".subir_foto" />
         <activity
             android:name=".pagina_principal"
@@ -27,5 +28,5 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
 </manifest>
