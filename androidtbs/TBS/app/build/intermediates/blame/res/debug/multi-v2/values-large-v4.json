@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
@@ -15,6 +16,12 @@
                 },
                 {
                     "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/e7c6c27e161e1d5c646a4e6286649778/res/values-large-v4/values-large-v4.xml",
+=======
+            "outputFile": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/4cc25b35588229abf67396db14897254/res/values-large-v4/values-large-v4.xml",
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -29,6 +36,19 @@
                         "endColumns": "121,133",
                         "endOffsets": "869,1003"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                 }
             ]
         }

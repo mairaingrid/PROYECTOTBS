@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="2c090a9d-647a-4c04-b6ca-2599a96fb114" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
@@ -186,6 +187,19 @@
       </list>
     </option>
   </component>
+=======
+  <component name="ProjectFrameBounds">
+    <option name="y" value="17" />
+    <option name="width" value="1920" />
+    <option name="height" value="1008" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="device.picker.selection" value="Nexus_5X_API_24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -248,6 +262,7 @@
       </method>
     </configuration>
   </component>
+<<<<<<< HEAD
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -336,4 +351,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
 </project>
