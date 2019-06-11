@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mi_perfil"
+            android:icon="@drawable/miperfil"
+            android:title="Mi Perfil" />
+
+        <item
+            android:id="@+id/publicaranuncio"
+            android:icon="@drawable/brand"
+            android:title="Publicar Anuncio" />
+        <item
+            android:id="@+id/nav_mismensajes"
+            android:icon="@drawable/mensaje"
+            android:title="Mis Mensajes" />
+        <item
+            android:id="@+id/nav_misfavoritos"
+            android:icon="@drawable/iconofavorito"
+            android:title="Mis Favoritos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
