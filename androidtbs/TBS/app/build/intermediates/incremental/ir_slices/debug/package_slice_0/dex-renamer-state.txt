@@ -1,0 +1,4 @@
+#Tue Jun 11 18:30:21 BOT 2019
+base.0=/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
