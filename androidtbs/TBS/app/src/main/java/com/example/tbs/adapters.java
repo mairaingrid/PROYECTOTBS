@@ -10,22 +10,26 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.text.BreakIterator;
 import java.util.ArrayList;
 import java.util.List;
 
 public class adapters extends RecyclerView.Adapter<adapters.ViewHolder> {
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
+
+
+
         ImageView imagen;
-        private TextView descripcion;
-        private TextView adicional;
-        private TextView titulo;
+        TextView descripcion;
+        TextView adicional;
+        public TextView tit;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             descripcion =(TextView)itemView.findViewById(R.id.descripcion);
             adicional = (TextView)itemView.findViewById(R.id.adicional);
-            titulo  =itemView.findViewById(R.id.titulo);
+            tit  =itemView.findViewById(R.id.titulo);
             imagen = (ImageView) itemView.findViewById(R.id.img);
         }
     }
@@ -44,7 +48,7 @@ public class adapters extends RecyclerView.Adapter<adapters.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position){
-        holder.titulo.setText(listaa.get(position).getTitle());
+        holder.tit.setText(listaa.get(position).getTitle());
         holder.descripcion.setText(listaa.get(position).getDescripcion());
         holder.adicional.setText(listaa.get(position).getAdicional());
         holder.imagen.setImageResource(listaa.get(position).getImg());

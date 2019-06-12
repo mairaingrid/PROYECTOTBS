@@ -1239,6 +1239,9 @@ id progress_horizontal
 id publicaranuncio
 id radio
 id recicler
+id reciclermisamigos
+id reciclermiscitas
+id reciclermisfavoritos
 id right
 id right_icon
 id right_side
@@ -1410,6 +1413,9 @@ layout fragment_misanuncios
 layout fragment_miscitas
 layout fragment_misfavoritos
 layout item_perfil
+layout menumisamigos
+layout miscitas
+layout misfavoritos
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_pagina_principal

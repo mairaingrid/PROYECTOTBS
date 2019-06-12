@@ -1,4 +1,4 @@
-#Wed Jun 12 10:35:05 BOT 2019
+#Wed Jun 12 13:02:52 BOT 2019
 base.0=/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex
