@@ -1061,6 +1061,8 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id TELEFONO
+id TEXTvIAS11
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1106,6 +1108,7 @@ id button2
 id button9
 id buttonPanel
 id cancel_action
+id cantidadmisanuncios
 id card
 id cardView
 id cardView2
@@ -1128,6 +1131,7 @@ id customPanel
 id decor_content_parent
 id default_activity_button
 id descripcion
+id descripcionmisanuncios
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1188,7 +1192,7 @@ id imagenadicional1
 id imagenadicional2
 id imagenadicional3
 id imagenprincipal
-id img
+id imgmisanuncios
 id info
 id invisible
 id italic
@@ -1234,6 +1238,7 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id preciomisanuncios
 id progress_circular
 id progress_horizontal
 id publicaranuncio
@@ -1296,12 +1301,15 @@ id tableLayout
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id telefonomisanuncios
 id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView11
+id textView2
 id textView3
 id textView5
 id textView6
@@ -1313,7 +1321,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id titulo
+id titulomisanuncios
 id toolbar
 id top
 id topPanel

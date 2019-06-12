@@ -34,7 +34,7 @@ public class misfavoritos extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     RecyclerView recicler ;
-    ArrayList<models> listarecycler;
+    ArrayList<modelsmisfavoritos> listarecycler;
 
     public misfavoritos() {
         // Required empty public constructor
@@ -66,10 +66,10 @@ public class misfavoritos extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    public List<models> obtencion(){
-        List<models> datos= new ArrayList<>();
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
+    public List<modelsmisfavoritos> obtencion(){
+        List<modelsmisfavoritos> datos= new ArrayList<>();
+        listarecycler.add(new modelsmisfavoritos("title","desccvripcion","est",R.drawable.coco));
+        listarecycler.add(new modelsmisfavoritos("tvvitle","descripcion","est",R.drawable.coco));
         return listarecycler;
 
     }
@@ -83,10 +83,10 @@ public class misfavoritos extends Fragment {
         View vista=inflater.inflate(R.layout.fragment_misfavoritos, container, false);
 //copiado
         listarecycler= new ArrayList<>();
-        recicler=(RecyclerView)vista.findViewById(R.id.reciclermisfavoritos);
+        recicler=vista.findViewById(R.id.reciclermisfavoritos);
         recicler.setLayoutManager(new LinearLayoutManager(getContext()));
         obtencion();
-        adapters adapter = new adapters(listarecycler);
+        adaptersmisfavoritos adapter = new adaptersmisfavoritos(listarecycler);
         recicler.setAdapter(adapter);
         return vista;
 

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class adaptersmiscitas  extends RecyclerView.Adapter<adapters.ViewHolder>{
+public class adaptersmiscitas  extends RecyclerView.Adapter<adaptersmiscitas.ViewHolder>{
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
         ImageView imagen;
@@ -22,25 +22,27 @@ public class adaptersmiscitas  extends RecyclerView.Adapter<adapters.ViewHolder>
             super(itemView);
             descripcion =(TextView)itemView.findViewById(R.id.descripcion);
             adicional = (TextView)itemView.findViewById(R.id.adicional);
-            tit  =itemView.findViewById(R.id.titulo);
-            imagen = (ImageView) itemView.findViewById(R.id.img);
+            tit  =itemView.findViewById(R.id.titulomisanuncios);
+            imagen = (ImageView) itemView.findViewById(R.id.imgmisanuncios);
         }
     }
-    public List<models> listaa;
+    public List<modelsmiscitas> listaa;
 
-    public adaptersmiscitas (List<models> listaa){
+    public adaptersmiscitas (List<modelsmiscitas> listaa){
         this.listaa = listaa;
     }
 
     @Override
-    public adapters.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_perfil,parent,false);
-        adapters.ViewHolder viewHolder=new adapters.ViewHolder(view);
+    public adaptersmiscitas.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.miscitas,parent,false);
+        adaptersmiscitas.ViewHolder viewHolder=new adaptersmiscitas.ViewHolder(view);
         return viewHolder;
     }
 
+
+
     @Override
-    public void onBindViewHolder(adapters.ViewHolder holder, int position){
+    public void onBindViewHolder(adaptersmiscitas.ViewHolder holder, int position){
         holder.tit.setText(listaa.get(position).getTitle());
         holder.descripcion.setText(listaa.get(position).getDescripcion());
         holder.adicional.setText(listaa.get(position).getAdicional());

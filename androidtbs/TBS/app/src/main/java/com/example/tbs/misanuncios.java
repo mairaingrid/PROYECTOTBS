@@ -81,8 +81,8 @@ public class misanuncios extends Fragment {
     }
     public List<models> obtencion(){
         List<models> datos= new ArrayList<>();
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
+        listarecycler.add(new models("3s0","asdtitle","descripcion","est",R.drawable.coco));
+        listarecycler.add(new models("title","ssd","descripcion","est",R.drawable.coco));
         return listarecycler;
 
     }

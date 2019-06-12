@@ -7,7 +7,7 @@ public class modelsmisfavoritos {
     private String adicional;
 
 
-    public modelsmisfavoritos(){
+    public modelsmisfavoritos() {
 
     }
     public modelsmisfavoritos( String title, String descripcion, String adicional, int img){

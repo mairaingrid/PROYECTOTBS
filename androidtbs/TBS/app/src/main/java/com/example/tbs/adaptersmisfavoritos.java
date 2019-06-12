@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class adaptersmisfavoritos  extends RecyclerView.Adapter<adapters.ViewHolder>{
+public class adaptersmisfavoritos  extends RecyclerView.Adapter<adaptersmisfavoritos.ViewHolder>{
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
         ImageView imagen;
@@ -22,25 +22,26 @@ public class adaptersmisfavoritos  extends RecyclerView.Adapter<adapters.ViewHol
             super(itemView);
             descripcion =(TextView)itemView.findViewById(R.id.descripcion);
             adicional = (TextView)itemView.findViewById(R.id.adicional);
-            tit  =itemView.findViewById(R.id.titulo);
-            imagen = (ImageView) itemView.findViewById(R.id.img);
+            tit  =itemView.findViewById(R.id.titulomisanuncios);
+            imagen = (ImageView) itemView.findViewById(R.id.imgmisanuncios);
         }
     }
-    public List<models> listaa;
+    public List<modelsmisfavoritos> listaa;
 
-    public adaptersmisfavoritos (List<models> listaa){
+    public adaptersmisfavoritos (List<modelsmisfavoritos> listaa){
         this.listaa = listaa;
     }
 
     @Override
-    public adapters.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_perfil,parent,false);
-        adapters.ViewHolder viewHolder=new adapters.ViewHolder(view);
+    public adaptersmisfavoritos.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.misfavoritos,parent,false);
+        adaptersmisfavoritos.ViewHolder viewHolder=new adaptersmisfavoritos.ViewHolder(view);
         return viewHolder;
     }
 
+
     @Override
-    public void onBindViewHolder(adapters.ViewHolder holder, int position){
+    public void onBindViewHolder(adaptersmisfavoritos.ViewHolder holder, int position){
         holder.tit.setText(listaa.get(position).getTitle());
         holder.descripcion.setText(listaa.get(position).getDescripcion());
         holder.adicional.setText(listaa.get(position).getAdicional());

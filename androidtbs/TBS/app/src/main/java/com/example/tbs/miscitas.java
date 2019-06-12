@@ -34,14 +34,14 @@ public class miscitas extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     RecyclerView recicler ;
-    ArrayList<models> listarecycler;
+    ArrayList<modelsmiscitas> listarecycler;
+
+    /**
+     * Use this factory method to create a new instance of
 
     public miscitas() {
         // Required empty public constructor
     }
-
-    /**
-     * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
      * @param param1 Parameter 1.
@@ -67,10 +67,10 @@ public class miscitas extends Fragment {
         }
     }
 
-    public ArrayList<models> obtencion(){
+    public ArrayList<modelsmiscitas> obtencion(){
         List<modelsmiscitas> datos= new ArrayList<>();
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
+        listarecycler.add(new modelsmiscitas("title","descripcion","est",R.drawable.coco));
+        listarecycler.add(new modelsmiscitas("title","descripcion","est",R.drawable.coco));
         return listarecycler;
 
     }
@@ -87,7 +87,7 @@ public class miscitas extends Fragment {
         recicler=(RecyclerView)vista.findViewById(R.id.reciclermiscitas);
         recicler.setLayoutManager(new LinearLayoutManager(getContext()));
         obtencion();
-        adapters adapter = new adapters(listarecycler);
+        adaptersmiscitas adapter = new adaptersmiscitas(listarecycler);
         recicler.setAdapter(adapter);
         return vista;
     }

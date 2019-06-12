@@ -34,7 +34,7 @@ public class misamigos extends Fragment {
 
     private OnFragmentInteractionListener mListener;
     RecyclerView recicler ;
-    ArrayList<models> listarecycler;
+    ArrayList<modelsmisamigos> listarecycler;
 
 
     public misamigos() {
@@ -67,10 +67,10 @@ public class misamigos extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    public List<models> obtencion(){
-        List<models> datos= new ArrayList<>();
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
-        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
+    public ArrayList<modelsmisamigos> obtencion(){
+        List<modelsmisamigos> datos= new ArrayList<>();
+        listarecycler.add(new modelsmisamigos("title","descripcirrron","est",R.drawable.coco));
+        listarecycler.add(new modelsmisamigos("title","descripcvv  ion","est",R.drawable.coco));
         return listarecycler;
 
     }
@@ -86,7 +86,7 @@ public class misamigos extends Fragment {
         recicler=(RecyclerView)vista.findViewById(R.id.reciclermisamigos);
         recicler.setLayoutManager(new LinearLayoutManager(getContext()));
         obtencion();
-        adapters adapter = new adapters(listarecycler);
+        adaptersmisamigos adapter = new adaptersmisamigos(listarecycler);
         recicler.setAdapter(adapter);
         return vista;
     }
