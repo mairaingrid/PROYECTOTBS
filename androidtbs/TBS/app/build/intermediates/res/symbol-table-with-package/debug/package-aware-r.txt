@@ -1096,13 +1096,13 @@ id bottom
 id btncrcuenta
 id btningresaremail
 id btninsesion
+id btnmisamigos
+id btnmisanuncios
+id btnmiscitas
+id btnmisfavoritos
 id button
 id button10
 id button2
-id button5
-id button6
-id button7
-id button8
 id button9
 id buttonPanel
 id cancel_action
@@ -1119,6 +1119,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id container
+id contenedoroficial
 id content
 id contentPanel
 id coordinator
@@ -1404,7 +1405,10 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_misamigos
 layout fragment_misanuncios
+layout fragment_miscitas
+layout fragment_misfavoritos
 layout item_perfil
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

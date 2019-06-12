@@ -19,14 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:testOnly="true"
-=======
-<<<<<<< HEAD
-        android:testOnly="true"
-=======
->>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
->>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.tbs.miperfil" />
         <activity android:name="com.example.tbs.publicar_anuncio" />
@@ -46,20 +39,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.example.tbs.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
->>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
     </application>
 
 </manifest>

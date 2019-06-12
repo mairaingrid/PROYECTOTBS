@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
-            "map": [
-                {
-                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/3ad6d80dd4c3645a8e48b2dfe5d00d25/res/values-pt-rBR/values-pt-rBR.xml",
-=======
             "outputFile": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/844bd1c863f95bae054173117f2e5873/res/values-pt-rBR/values-pt-rBR.xml",
->>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,11 +21,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
-                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/3a57f3944220a8324e7a9160fb949e92/res/values-pt-rBR/values-pt-rBR.xml",
-=======
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/values-pt-rBR/values-pt-rBR.xml",
->>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

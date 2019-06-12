@@ -4,9 +4,14 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -26,8 +31,15 @@ public class misanuncios extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+  //agrega la lista de recicler view
+
+    private RecyclerView recyclerV ;
+    private adapters adapter;
+
 
     private OnFragmentInteractionListener mListener;
+    RecyclerView recicler ;
+    ArrayList<models> listarecycler;
 
     public misanuncios() {
         // Required empty public constructor
@@ -58,14 +70,39 @@ public class misanuncios extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
+         // recyclerV = (RecyclerView) findViewById(R.id.recicler);
+         //          recyclerV.setLayoutManager(new LinearLayoutManager(this));
+
+      //      adapter = new adapters(obtencion());
+        //    recyclerV.setAdapter(adapter);
+
     }
+    public List<models> obtencion(){
+        List<models> datos= new ArrayList<>();
+        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
+        listarecycler.add(new models("title","descripcion","est",R.drawable.coco));
+        return listarecycler;
+
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_misanuncios, container, false);
+        View vista=inflater.inflate(R.layout.fragment_misanuncios, container, false);
+
+        listarecycler= new ArrayList<>();
+        recicler=(RecyclerView)vista.findViewById(R.id.recicler);
+        recicler.setLayoutManager(new LinearLayoutManager(getContext()));
+        obtencion();
+        adapters adapter = new adapters(listarecycler);
+        recicler.setAdapter(adapter);
+        return vista;
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
@@ -105,4 +142,5 @@ public class misanuncios extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }
