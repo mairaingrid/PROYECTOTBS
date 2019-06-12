@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/3a57f3944220a8324e7a9160fb949e92/res/values-v21/values-v21.xml",
+=======
             "outputFile": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/values-v21/values-v21.xml",
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +30,30 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/3ad6d80dd4c3645a8e48b2dfe5d00d25/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,268,269,276,280,316,319",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,19490,19606,20063,20357,22365,22537",
+                        "endLines": "2,3,4,5,268,269,276,280,318,323",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,19601,19727,20184,20480,22532,22870"
+                    }
+                },
+                {
+                    "source": "/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/src/main/res/values-v21/styles.xml",
+=======
                     "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/values-v21/styles.xml",
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +72,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/e7c6c27e161e1d5c646a4e6286649778/res/values-v21/values-v21.xml",
+=======
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/4cc25b35588229abf67396db14897254/res/values-v21/values-v21.xml",
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -61,6 +95,9 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/031c5dd4ddbd29c85f464cfda4d71369/res/values-v21/values-v21.xml",
+=======
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/844bd1c863f95bae054173117f2e5873/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -81,6 +118,7 @@
                 },
                 {
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/fa45b85a8068d909e6ca587d74afcde4/res/values-v21/values-v21.xml",
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 #Wed Jun 12 00:21:08 BOT 2019
+=======
+<<<<<<< HEAD
+#Tue Jun 11 18:30:21 BOT 2019
+base.0=/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/build/intermediates/transforms/dexMerger/debug/8
+=======
+#Tue Jun 11 18:12:20 BOT 2019
+>>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
 base.0=/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/transforms/dexMerger/debug/8
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
 path.0=classes.dex
 renamed.0=classes.dex

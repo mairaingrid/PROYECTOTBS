@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/src/debug/jniLibs"/></dataSet></merger>
+=======
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/debug/jniLibs"/></dataSet></merger>
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24

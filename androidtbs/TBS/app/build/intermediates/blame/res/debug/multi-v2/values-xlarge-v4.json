@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "/home/karina/Escritorio/proyecto2019/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "/home/karina/.gradle/caches/transforms-2/files-2.1/3a57f3944220a8324e7a9160fb949e92/res/values-xlarge-v4/values-xlarge-v4.xml",
+=======
             "outputFile": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
