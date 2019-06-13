@@ -1,8 +1,11 @@
 package com.example.tbs;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,38 +16,38 @@ import android.widget.Toast;
 import java.io.IOException;
 
 public class subir_foto extends AppCompatActivity implements View.OnClickListener {
-    ImageView imagenprincipal;
-    ImageView imagenadicional1;
+    ImageView imagen;
+   /* ImageView imagenadicional1;
     ImageView imagenadicional2;
-    ImageView imagenadicional3;
-    Button subirfoto;
+    ImageView imagenadicional3;*/
+    Button galeria;
     int movil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subir_foto);
-        imagenprincipal = (ImageView) findViewById(R.id.imagenprincipal);
-        imagenadicional1 = (ImageView) findViewById(R.id.imagenadicional1);
+      imagen = (ImageView) findViewById(R.id.imagenprincipal);
+      /*  imagenadicional1 = (ImageView) findViewById(R.id.imagenadicional1);
         imagenadicional2 = (ImageView) findViewById(R.id.imagenadicional2);
-        imagenadicional3 = (ImageView) findViewById(R.id.imagenadicional3);
-        subirfoto = (Button) findViewById(R.id.subirfoto);
+        imagenadicional3 = (ImageView) findViewById(R.id.imagenadicional3);*/
+        galeria = (Button) findViewById(R.id.galeria);
 
-        imagenprincipal.setOnClickListener(this);
-        imagenadicional1.setOnClickListener(this);
+      /*  imagenadicional1.setOnClickListener(this);
         imagenadicional2.setOnClickListener(this);
-        imagenadicional3.setOnClickListener(this);
-        subirfoto.setOnClickListener(this);
+        imagenadicional3.setOnClickListener(this);*/
+
     }
 
-    public void irpublicar(View v) {
+  /*  public void irpublicar(View v) {
         Intent ir_publicar= new Intent(this, publicar_anuncio.class);
         startActivity(ir_publicar);
 
-    }
+    }*/
     @Override
     public void onClick(View v){
+        galeria();
         //esto hace que la imAGEN chica al seleccionarse tiene que actualizarse en la principal
-        switch (v.getId()){
+        /*switch (v.getId()){
             case R.id.imagenadicional1:
                imagenprincipal.setImageResource(R.mipmap.image1);
                movil = R.mipmap.image1;
@@ -73,8 +76,23 @@ public class subir_foto extends AppCompatActivity implements View.OnClickListene
 
                 break;
 
-
+*/
         }
 
+    @SuppressLint("IntentReset")
+    private void galeria() {
+        Intent intent = new Intent(Intent.ACTION_PICK,MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        intent.setType("image/");
+        startActivityForResult(intent.createChooser(intent,"seleccionxcxces"),90);
+
     }
+@Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode, resultCode,data);
+        if (RESULT_OK==resultCode){
+            Uri path=data.getData();
+            imagen.setImageURI(path);
+        }
+
+}
 }

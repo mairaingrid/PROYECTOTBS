@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

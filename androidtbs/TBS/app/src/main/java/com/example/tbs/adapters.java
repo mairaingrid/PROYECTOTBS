@@ -1,32 +1,38 @@
 package com.example.tbs;
 
-import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class adapters extends RecyclerView.Adapter<adapters.ViewHolder> {
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
-        ImageView imagen;
-        private TextView descripcion;
-        private TextView adicional;
-        private TextView titulo;
+
+
+
+        ImageView imagenanuncios;
+        TextView descripcionanuncios;
+        TextView costoanuncios;
+        TextView cantidadanuncios;
+        TextView telefonoanuncios;
+
+        TextView adicional;
+        public TextView tit;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            descripcion =(TextView)itemView.findViewById(R.id.descripcion);
-            adicional = (TextView)itemView.findViewById(R.id.adicional);
-            titulo  =itemView.findViewById(R.id.titulo);
-            imagen = (ImageView) itemView.findViewById(R.id.img);
+            descripcionanuncios =(TextView)itemView.findViewById(R.id.descripcionmisanuncios);
+            costoanuncios = (TextView)itemView.findViewById(R.id.preciomisanuncios);
+            cantidadanuncios = (TextView)itemView.findViewById(R.id.cantidadmisanuncios);
+            tit  =itemView.findViewById(R.id.titulomisanuncios);
+            telefonoanuncios=itemView.findViewById(R.id.telefonomisanuncios);
+            imagenanuncios = (ImageView) itemView.findViewById(R.id.imgmisanuncios);
         }
     }
     public List<models> listaa;
@@ -44,10 +50,11 @@ public class adapters extends RecyclerView.Adapter<adapters.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position){
-        holder.titulo.setText(listaa.get(position).getTitle());
-        holder.descripcion.setText(listaa.get(position).getDescripcion());
-        holder.adicional.setText(listaa.get(position).getAdicional());
-        holder.imagen.setImageResource(listaa.get(position).getImg());
+        holder.tit.setText(listaa.get(position).getTitle());
+        holder.descripcionanuncios.setText(listaa.get(position).getDescripcion());
+        holder.costoanuncios.setText(listaa.get(position).getCosto());
+        holder.imagenanuncios.setImageResource(listaa.get(position).getImg());
+        holder.telefonoanuncios.setText(listaa.get(position).getTelefono());
     }
 
     @Override
