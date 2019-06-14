@@ -69,8 +69,9 @@ public class misamigos extends Fragment {
     }
     public ArrayList<modelsmisamigos> obtencion(){
         List<modelsmisamigos> datos= new ArrayList<>();
-        listarecycler.add(new modelsmisamigos("title","descripcirrron","est",R.drawable.coco));
-        listarecycler.add(new modelsmisamigos("title","descripcvv  ion","est",R.drawable.coco));
+        listarecycler.add(new modelsmisamigos("est","esaz",R.drawable.brand));
+        listarecycler.add(new modelsmisamigos("est","esaz",R.drawable.brand));
+
         return listarecycler;
 
     }

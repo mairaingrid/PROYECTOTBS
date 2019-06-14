@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,11 +70,12 @@ public class miscitas extends Fragment {
 
     public ArrayList<modelsmiscitas> obtencion(){
         List<modelsmiscitas> datos= new ArrayList<>();
-        listarecycler.add(new modelsmiscitas("title","descripcion","est",R.drawable.coco));
-        listarecycler.add(new modelsmiscitas("title","descripcion","est",R.drawable.coco));
+        listarecycler.add(new modelsmiscitas("2enero","asdte","descripcion",R.drawable.coco));
+        listarecycler.add(new modelsmiscitas("3s0","asdtitle","descripcion",R.drawable.coco));
         return listarecycler;
 
     }
+
 
 
     @Override

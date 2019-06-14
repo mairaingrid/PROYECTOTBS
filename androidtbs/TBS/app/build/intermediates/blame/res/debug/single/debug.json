@@ -368,12 +368,12 @@
         "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/layout_menumisamigos.xml.flat",
-        "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/layout/menumisamigos.xml"
-    },
-    {
         "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/layout_menumisamigos.xml.flat",
+        "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/layout/menumisamigos.xml"
     },
     {
         "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -1224,16 +1224,16 @@
         "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/layout_miscitas.xml.flat",
+        "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/layout/miscitas.xml"
+    },
+    {
         "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/drawable_miperfil.png.flat",
         "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/drawable/miperfil.png"
     },
     {
         "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
         "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/layout_miscitas.xml.flat",
-        "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/layout/miscitas.xml"
     },
     {
         "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",

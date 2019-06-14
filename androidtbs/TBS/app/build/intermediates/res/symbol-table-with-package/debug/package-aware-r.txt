@@ -1085,7 +1085,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id adicional
 id alertTitle
 id all
 id always
@@ -1130,8 +1129,8 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
-id descripcion
 id descripcionmisanuncios
+id descripcionmiscitas
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1160,6 +1159,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fab
+id fechamiscita
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1171,8 +1171,6 @@ id ghost_view
 id gone
 id group_divider
 id groups
-id guideline
-id guideline2
 id home
 id homeAsUp
 id horizontalScrollView
@@ -1192,7 +1190,7 @@ id imagenadicional1
 id imagenadicional2
 id imagenadicional3
 id imagenprincipal
-id imgmisanuncios
+id imgmiscitas
 id info
 id invisible
 id italic
@@ -1208,6 +1206,7 @@ id linearLayout4
 id linearLayout5
 id listMode
 id list_item
+id llamarmiscitas
 id masked
 id media_actions
 id message
@@ -1225,6 +1224,7 @@ id nav_share
 id nav_view
 id navigation_header_container
 id never
+id nombremiscitas
 id none
 id normal
 id notification_background
@@ -1309,7 +1309,6 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView11
-id textView2
 id textView3
 id textView5
 id textView6
@@ -1321,7 +1320,6 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id titulomisanuncios
 id toolbar
 id top
 id topPanel

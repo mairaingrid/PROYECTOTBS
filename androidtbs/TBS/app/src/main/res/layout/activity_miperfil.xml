@@ -51,13 +51,15 @@
 
     <FrameLayout
         android:id="@+id/contenedoroficial"
-        android:layout_width="353dp"
-        android:layout_height="609dp"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
         android:layout_below="@+id/linearLayout3"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginBottom="3dp">
 
     </FrameLayout>

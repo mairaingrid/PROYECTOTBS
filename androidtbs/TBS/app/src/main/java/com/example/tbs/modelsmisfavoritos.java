@@ -1,57 +1,67 @@
 package com.example.tbs;
 
 public class modelsmisfavoritos {
-    private Integer img;
-    private String title;
-    private String descripcion;
-    private String adicional;
+    private Integer imgmisanuncios;
+    private String titulomisanuncios;
+    private String costomisanuncios;
+    private String telefonomisanuncios;
+    private String descripcionmisanuncios;
 
 
-    public modelsmisfavoritos() {
+    public modelsmisfavoritos(String title, String descripcirrron, String est, int coco){
 
     }
-    public modelsmisfavoritos( String title, String descripcion, String adicional, int img){
+    public modelsmisfavoritos( String titulomisanuncios, String descripcionmisanuncios, String costomisanuncios, String telefonomisanuncios, int imgmisanuncios){
 
-        this.title = title;
-        this.descripcion=descripcion;
-        this.adicional = adicional;
-        this.img=img;
+        this.titulomisanuncios= titulomisanuncios;
+        this.descripcionmisanuncios=descripcionmisanuncios;
+        this.costomisanuncios = costomisanuncios;
+        this.titulomisanuncios= telefonomisanuncios;
+        this.imgmisanuncios=imgmisanuncios;
 
     }
 
     public Integer getImg(){
 
-        return img;
+        return imgmisanuncios;
     }
     public void setImg(Integer image)
     {
-        this.img = img;
+        this.imgmisanuncios = imgmisanuncios;
     }
 
     public String getTitle(){
 
-        return title;
+        return titulomisanuncios;
     }
 
     public void setTitle(String title){
-        this.title = title;
+        this.titulomisanuncios = titulomisanuncios;
     }
 
     public String getDescripcion(){
 
-        return descripcion;
+        return descripcionmisanuncios;
     }
 
-    public void setDescripcion(String descripcion){
-        this.descripcion = descripcion;
+    public void setDescripcion(String descripcionmisanuncios){
+        this.descripcionmisanuncios = descripcionmisanuncios;
     }
 
-    public String getAdicional(){
-        return adicional;
+    public String getTelefono(){
+        return telefonomisanuncios;
     }
 
-    public void setAdicional(String adicional){
-        this.adicional = adicional;
+    public void setTelefono(String telefonomisanuncios){
+        this. telefonomisanuncios= telefonomisanuncios;
+    }
+
+    public String getCosto(){
+        return  costomisanuncios;
+    }
+
+    public void setCosto(String costomisanuncios){
+        this.costomisanuncios=costomisanuncios;
     }
 
 

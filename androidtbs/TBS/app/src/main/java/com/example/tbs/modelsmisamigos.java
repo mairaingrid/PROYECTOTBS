@@ -1,57 +1,49 @@
 package com.example.tbs;
 
 public class modelsmisamigos {
-    private Integer img;
-    private String title;
-    private String descripcion;
-    private String adicional;
+    private Integer imgmisamigos;
+    private String titulomisamigos;
+   
+    private String telefonomisamigos;
 
 
-    public modelsmisamigos(){
 
-    }
-    public modelsmisamigos( String title, String descripcion, String adicional, int img){
+    public modelsmisamigos( String titulomisamigos, String telefonomisamigos, int imgmisamigos){
 
-        this.title = title;
-        this.descripcion=descripcion;
-        this.adicional = adicional;
-        this.img=img;
+        this.titulomisamigos= titulomisamigos;
+        this.titulomisamigos= telefonomisamigos;
+        this.imgmisamigos=imgmisamigos;
 
     }
+
+
 
     public Integer getImg(){
 
-        return img;
+        return imgmisamigos;
     }
     public void setImg(Integer image)
     {
-        this.img = img;
+        this.imgmisamigos = imgmisamigos;
     }
 
     public String getTitle(){
 
-        return title;
+        return titulomisamigos;
     }
 
     public void setTitle(String title){
-        this.title = title;
+        this.titulomisamigos = titulomisamigos;
     }
 
-    public String getDescripcion(){
+ 
 
-        return descripcion;
+    public String getTelefono(){
+        return telefonomisamigos;
     }
 
-    public void setDescripcion(String descripcion){
-        this.descripcion = descripcion;
-    }
-
-    public String getAdicional(){
-        return adicional;
-    }
-
-    public void setAdicional(String adicional){
-        this.adicional = adicional;
+    public void setTelefono(String telefonomisanuncios){
+        this. telefonomisamigos= telefonomisanuncios;
     }
 
 

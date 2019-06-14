@@ -30,9 +30,9 @@ public class adapters extends RecyclerView.Adapter<adapters.ViewHolder> {
             descripcionanuncios =(TextView)itemView.findViewById(R.id.descripcionmisanuncios);
             costoanuncios = (TextView)itemView.findViewById(R.id.preciomisanuncios);
             cantidadanuncios = (TextView)itemView.findViewById(R.id.cantidadmisanuncios);
-            tit  =itemView.findViewById(R.id.titulomisanuncios);
+            tit  =itemView.findViewById(R.id.nombremiscitas);
             telefonoanuncios=itemView.findViewById(R.id.telefonomisanuncios);
-            imagenanuncios = (ImageView) itemView.findViewById(R.id.imgmisanuncios);
+            imagenanuncios = (ImageView) itemView.findViewById(R.id.imgmiscitas);
         }
     }
     public List<models> listaa;

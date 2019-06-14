@@ -96,9 +96,8 @@ public class pagina_principal extends AppCompatActivity
 
 
         } else if (id == R.id.nav_mismensajes) {
-            Intent btncrcrear_cuenta = new Intent(this, crear_cuenta.class);
-            startActivity(btncrcrear_cuenta);
-
+       //     Intent mismensajes= new Intent(this,mimensajes.class);
+           // startActivity(mismensajes);
 
         } else if (id == R.id.nav_misfavoritos) {
 

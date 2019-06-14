@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:28.0.0] /home/debi/.gradle/caches/transforms-2/files-2.1/4cc25b35588229abf67396db14897254/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:cardview-v7:28.0.0] /home/debi/.gradle/caches/transforms-2/files-2.1/af151a0e213923129209b14161a853e0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/AndroidManifest.xml:17:1-22:12
@@ -37,25 +37,29 @@ MERGED from [com.android.support:interpolator:28.0.0] /home/debi/.gradle/caches/
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/debi/.gradle/caches/transforms-2/files-2.1/eb43b2e5140363f3834d59b91aa547c3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/debi/.gradle/caches/transforms-2/files-2.1/7b34b500ccb5ecc4bcfcf6e50c25dea4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/debi/.gradle/caches/transforms-2/files-2.1/4a87cd7fec9f5507155ee88f272febee/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml
 		INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:5:22-69
 application
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:5:5-30:19
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:7:5-32:19
 MERGED from [com.android.support:design:28.0.0] /home/debi/.gradle/caches/transforms-2/files-2.1/4cc25b35588229abf67396db14897254/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/debi/.gradle/caches/transforms-2/files-2.1/4cc25b35588229abf67396db14897254/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/debi/.gradle/caches/transforms-2/files-2.1/d30d68145dcff17da0a6c8645e7197cd/AndroidManifest.xml:9:5-20
@@ -67,63 +71,59 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/debi/.gradle/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/debi/.gradle/caches/transforms-2/files-2.1/844bd1c863f95bae054173117f2e5873/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.example.tbs.miperfil
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:12:9-55
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:14:9-46
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:12:19-43
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:14:19-43
 activity#com.example.tbs.publicar_anuncio
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:13:9-54
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:15:9-54
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:13:19-51
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:15:19-51
 activity#com.example.tbs.subir_foto
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:14:9-48
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:16:9-48
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:14:19-45
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:16:19-45
 activity#com.example.tbs.pagina_principal
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:15:9-18:59
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:17:9-20:59
 	android:label
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:17:13-68
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:19:13-68
 	android:theme
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:18:13-56
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:16:13-45
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:18:13-45
 activity#com.example.tbs.crear_cuenta
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:19:9-22:47
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:21:9-24:47
 	android:label
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:23:13-41
 	android:theme
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:24:13-44
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:22:13-41
 activity#com.example.tbs.MainActivity
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:23:9-29:20
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:23:19-47
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:25:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:27:27-74
-uses-permission#android.permission.SET_WALLPAPER
-ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:31:5-71
-	android:name
-		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:31:22-69
+		ADDED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/AndroidManifest.xml

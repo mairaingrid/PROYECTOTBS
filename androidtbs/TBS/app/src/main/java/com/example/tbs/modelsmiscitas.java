@@ -1,58 +1,70 @@
 package com.example.tbs;
 
+import android.widget.ImageButton;
+
 public class modelsmiscitas {
-    private Integer img;
-    private String title;
-    private String descripcion;
-    private String adicional;
 
+    private String nombremiscitas;
+    private Integer imgmiscitas;
+    private String descripcionmiscitas;
+    private String fechamiscitas;
+ //   private ImageButton llamarmiscita;
 
-    public modelsmiscitas(){
+    public modelsmiscitas(String title, String descripcirrron, String est, int imgmiscitas, int coco){
 
     }
-    public modelsmiscitas( String title, String descripcion, String adicional, int img){
+    public modelsmiscitas( String fechamiscitas, String nombremiscitas, String descripcionmiscitas, int imgmiscitas ){//,ImageButton llamarmiscita){
 
-        this.title = title;
-        this.descripcion=descripcion;
-        this.adicional = adicional;
-        this.img=img;
+        this.nombremiscitas= nombremiscitas;
+        this.descripcionmiscitas=descripcionmiscitas;
+        this.fechamiscitas = fechamiscitas;
+    //    this.llamarmiscita= llamarmiscita;
+        this.imgmiscitas=imgmiscitas;
 
     }
 
     public Integer getImg(){
 
-        return img;
+        return imgmiscitas;
     }
     public void setImg(Integer image)
     {
-        this.img = img;
+        this.imgmiscitas = imgmiscitas;
     }
 
     public String getTitle(){
 
-        return title;
+        return nombremiscitas;
     }
 
     public void setTitle(String title){
-        this.title = title;
+        this.nombremiscitas = nombremiscitas;
     }
 
     public String getDescripcion(){
 
-        return descripcion;
+        return descripcionmiscitas;
     }
 
-    public void setDescripcion(String descripcion){
-        this.descripcion = descripcion;
+    public void setDescripcion(String descripcionmiscitas){
+        this.descripcionmiscitas = descripcionmiscitas;
     }
 
-    public String getAdicional(){
-        return adicional;
+    public String getFechamiscitas(){
+        return fechamiscitas;
     }
 
-    public void setAdicional(String adicional){
-        this.adicional = adicional;
+    public void setFechamiscitas(String fechamiscitas){
+        this. fechamiscitas= fechamiscitas;
     }
 
+ /*   public  ImageButton getLlamada(){
+        return  llamarmiscita;
+    }
+
+    public void setLlamada(ImageButton llamarmiscita){
+        this.llamarmiscita=llamarmiscita;
+    }
+*/
 
 }

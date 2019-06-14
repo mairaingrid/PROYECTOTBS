@@ -68,8 +68,8 @@ public class misfavoritos extends Fragment {
     }
     public List<modelsmisfavoritos> obtencion(){
         List<modelsmisfavoritos> datos= new ArrayList<>();
-        listarecycler.add(new modelsmisfavoritos("title","desccvripcion","est",R.drawable.coco));
-        listarecycler.add(new modelsmisfavoritos("tvvitle","descripcion","est",R.drawable.coco));
+        listarecycler.add(new modelsmisfavoritos("3s0","asdtitle","descripcion","est",R.drawable.coco));
+        listarecycler.add(new modelsmisfavoritos("3s0","asdtitle","descripcion","est",R.drawable.coco));
         return listarecycler;
 
     }
