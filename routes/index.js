@@ -1,10 +1,11 @@
 var express = require('express');
-var USER = require('../database/users');
+//var USER = require('../database/users');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.status(200).json({
+  res.render('index', { title: 'Express'});
+/*  res.status(200).json({
     msn:"Bienvenidos a la API,TBS"
   })
 });
@@ -19,6 +20,6 @@ router.post('/user',(req, res) =>{
     });
   });
 });
-
-
+*/
+});
 module.exports = router;

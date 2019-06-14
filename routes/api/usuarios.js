@@ -11,7 +11,7 @@ router.get('/',function (req, res, next) {
   Usuario.find().exec().then(docs => {
     if(docs.length == 0) {
       res.json({
-          message: "No existen usuarios en la base de datos"
+          msn: "No existen usuarios en la base de datos"
       })
     } else{
       res.json(docs);

@@ -1,5 +1,5 @@
 const mongoose = require("./connect");
-const USERSCHEMA = mongoose.Schema;
+const Schema = mongoose.Schema;
 const usuarioSchema = Schema({
   name:{
        type: String,
@@ -30,4 +30,5 @@ const usuarioSchema = Schema({
   address     : String
 }*/
 const usuario = mongoose.model("Usuario",usuarioSCHEMA);
+
 module.exports = usuario;
