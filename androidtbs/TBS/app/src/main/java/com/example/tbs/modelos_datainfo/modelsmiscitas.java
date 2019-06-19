@@ -1,35 +1,37 @@
 package com.example.tbs;
 
+import android.widget.CheckBox;
 import android.widget.ImageButton;
 
 public class modelsmiscitas {
 
     private String nombremiscitas;
-    private Integer imgmiscitas;
+    private Integer imagenmiscitas;
     private String descripcionmiscitas;
     private String fechamiscitas;
+    private CheckBox checkbox;
  //   private ImageButton llamarmiscita;
 
-    public modelsmiscitas(String title, String descripcirrron, String est, int imgmiscitas, int coco){
+    public modelsmiscitas(String title, String descripcirrron, String est, int imagenmiscitas, int coco){
 
     }
-    public modelsmiscitas( String fechamiscitas, String nombremiscitas, String descripcionmiscitas, int imgmiscitas ){//,ImageButton llamarmiscita){
+    public modelsmiscitas( String fechamiscitas, String nombremiscitas, String descripcionmiscitas, int imagenmiscitas ){//,ImageButton llamarmiscita){
 
         this.nombremiscitas= nombremiscitas;
         this.descripcionmiscitas=descripcionmiscitas;
         this.fechamiscitas = fechamiscitas;
     //    this.llamarmiscita= llamarmiscita;
-        this.imgmiscitas=imgmiscitas;
+        this.imagenmiscitas=imagenmiscitas;
 
     }
 
     public Integer getImg(){
 
-        return imgmiscitas;
+        return imagenmiscitas;
     }
     public void setImg(Integer image)
     {
-        this.imgmiscitas = imgmiscitas;
+        this.imagenmiscitas = imagenmiscitas;
     }
 
     public String getTitle(){

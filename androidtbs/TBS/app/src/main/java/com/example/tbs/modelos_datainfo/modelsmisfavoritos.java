@@ -1,33 +1,52 @@
 package com.example.tbs;
 
+import android.support.constraint.ConstraintLayout;
+import android.view.View;
+import android.widget.CheckBox;
+
 public class modelsmisfavoritos {
-    private Integer imgmisanuncios;
+    private Integer imgmisanuncio;
     private String titulomisanuncios;
     private String costomisanuncios;
     private String telefonomisanuncios;
     private String descripcionmisanuncios;
+ //   private boolean star;
 
 
-    public modelsmisfavoritos(String title, String descripcirrron, String est, int coco){
+    public modelsmisfavoritos(//CheckBox star,
+                              String title, String descripcirrron, String est, int imagen){
 
     }
-    public modelsmisfavoritos( String titulomisanuncios, String descripcionmisanuncios, String costomisanuncios, String telefonomisanuncios, int imgmisanuncios){
+    public modelsmisfavoritos(//CheckBox star,
+                              String titulomisanuncios, String descripcionmisanuncios, String costomisanuncios, String telefonomisanuncios, int imgmisanuncios){
 
         this.titulomisanuncios= titulomisanuncios;
         this.descripcionmisanuncios=descripcionmisanuncios;
         this.costomisanuncios = costomisanuncios;
         this.titulomisanuncios= telefonomisanuncios;
-        this.imgmisanuncios=imgmisanuncios;
+        this.imgmisanuncio=imgmisanuncios;
+      //  this.star=star;
 
     }
 
+//    public boolean getStar(){
+  //      return star;
+   // }
+
+  /*  public void setStar(boolean star) {
+      //  if (star && getStar() instanceof View && (View) getParent().isPressed()){
+    //        return;}
+  //      super.setStar(star);
+        this.star = star;
+    }
+*/
     public Integer getImg(){
 
-        return imgmisanuncios;
+        return imgmisanuncio;
     }
     public void setImg(Integer image)
     {
-        this.imgmisanuncios = imgmisanuncios;
+        this.imgmisanuncio = imgmisanuncio;
     }
 
     public String getTitle(){
