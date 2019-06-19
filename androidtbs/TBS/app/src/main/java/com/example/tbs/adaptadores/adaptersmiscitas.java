@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.adaptadores;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -7,10 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.tbs.R;
+import com.example.tbs.modelos_datainfo.modelsmiscitas;
 
 import java.util.List;
 
@@ -37,7 +39,7 @@ public class adaptersmiscitas  extends RecyclerView.Adapter<adaptersmiscitas.Vie
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             context = itemView.getContext();
-            nombremiscitas = (TextView) itemView.findViewById(R.id.nombremiscitas);
+            nombremiscitas = (TextView) itemView.findViewById(R.id.nombremisfavoritos);
             descripcionmiscitas = (TextView) itemView.findViewById(R.id.descripcionmiscitas);
             fechamiscitas = (TextView) itemView.findViewById(R.id.fechamiscita);
             //     llamadamiscitas = itemView.findViewById(R.id.llamarmiscitas);

@@ -10,6 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.tbs.adaptadores.adaptersmisfavoritos;
+import com.example.tbs.modelos_datainfo.modelsmisfavoritos;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,7 +25,7 @@ import java.util.List;
  * Use the {@link misfavoritos#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class misfavoritos extends Fragment {
+public class misfavoritos extends Fragment implements View.OnClickListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -69,7 +72,8 @@ public class misfavoritos extends Fragment {
     public List<modelsmisfavoritos> obtencion(){
         List<modelsmisfavoritos> datos= new ArrayList<>();
         listarecycler.add(new modelsmisfavoritos("3s0","asdtitle","descripcion","est",R.drawable.coco));
-        listarecycler.add(new modelsmisfavoritos("3s0","asdtitle","descripcion","est",R.drawable.coco));
+
+        listarecycler.add(new modelsmisfavoritos( "3s0","asdtitle","descripcion","est",R.drawable.coco));
         return listarecycler;
 
     }
@@ -114,6 +118,16 @@ public class misfavoritos extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    /**
+     * Called when a view has been clicked.
+     *
+     * @param v The view that was clicked.
+     */
+    @Override
+    public void onClick(View v) {
+
     }
 
     /**

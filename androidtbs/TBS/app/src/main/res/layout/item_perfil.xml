@@ -44,7 +44,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/nombremiscitas"
+                    android:id="@+id/nombremisfavoritos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 

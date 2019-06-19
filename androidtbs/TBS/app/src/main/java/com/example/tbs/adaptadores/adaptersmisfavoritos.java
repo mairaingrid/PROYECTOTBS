@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.adaptadores;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,10 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.content.Context;
+
+import com.example.tbs.R;
+import com.example.tbs.modelos_datainfo.modelsmisfavoritos;
 
 import java.util.List;
 
@@ -51,9 +53,9 @@ public class adaptersmisfavoritos  extends RecyclerView.Adapter<adaptersmisfavor
             descripcionanuncios = (TextView) itemView.findViewById(R.id.descripcionmisanuncios);
             costoanuncios = (TextView) itemView.findViewById(R.id.preciomisanuncios);
             cantidadanuncios = (TextView) itemView.findViewById(R.id.cantidadmisanuncios);
-            tit = itemView.findViewById(R.id.nombremiscitas);
+            tit = itemView.findViewById(R.id.nombremisfavoritos);
             telefonoanuncios = itemView.findViewById(R.id.telefonomisanuncios);
-            imagenanuncios = (ImageView) itemView.findViewById(R.id.imgmiscitas);
+            imagenanuncios = (ImageView) itemView.findViewById(R.id.imgmisfavoritos);
          //   estrellitadondeestas= itemView.findViewById(R.id.starfavorito);
            // estrellitadondeestas=setOnClickListener(this);
 

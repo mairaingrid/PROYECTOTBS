@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.adaptadores;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.tbs.R;
+import com.example.tbs.modelos_datainfo.models;
 
 import java.util.List;
 
@@ -30,7 +33,7 @@ public class adapters extends RecyclerView.Adapter<adapters.ViewHolder> {
             descripcionanuncios =(TextView)itemView.findViewById(R.id.descripcionmisanuncios);
             costoanuncios = (TextView)itemView.findViewById(R.id.preciomisanuncios);
             cantidadanuncios = (TextView)itemView.findViewById(R.id.cantidadmisanuncios);
-            tit  =itemView.findViewById(R.id.nombremiscitas);
+            tit  =itemView.findViewById(R.id.nombremisfavoritos);
             telefonoanuncios=itemView.findViewById(R.id.telefonomisanuncios);
             imagenanuncios = (ImageView) itemView.findViewById(R.id.imgmiscitas);
         }

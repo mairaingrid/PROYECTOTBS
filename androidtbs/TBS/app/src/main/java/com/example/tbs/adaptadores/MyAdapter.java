@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.adaptadores;
 
 import android.content.Context;
 import android.view.LayoutInflater;

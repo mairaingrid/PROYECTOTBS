@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.modelos_datainfo;
 
 public class modelsmisamigos {
     private Integer imgmisamigos;

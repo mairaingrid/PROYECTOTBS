@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.modelos_datainfo;
 
 import android.support.constraint.ConstraintLayout;
 import android.view.View;
@@ -18,13 +18,13 @@ public class modelsmisfavoritos {
 
     }
     public modelsmisfavoritos(//CheckBox star,
-                              String titulomisanuncios, String descripcionmisanuncios, String costomisanuncios, String telefonomisanuncios, int imgmisanuncios){
+                              String titulomisanuncios, String descripcionmisanuncios, String costomisanuncios, String telefonomisanuncios, int imgmisanuncio){
 
         this.titulomisanuncios= titulomisanuncios;
         this.descripcionmisanuncios=descripcionmisanuncios;
         this.costomisanuncios = costomisanuncios;
         this.titulomisanuncios= telefonomisanuncios;
-        this.imgmisanuncio=imgmisanuncios;
+        this.imgmisanuncio=imgmisanuncio;
       //  this.star=star;
 
     }
@@ -44,7 +44,7 @@ public class modelsmisfavoritos {
 
         return imgmisanuncio;
     }
-    public void setImg(Integer image)
+    public void setImg(Integer imgmisanuncio)
     {
         this.imgmisanuncio = imgmisanuncio;
     }

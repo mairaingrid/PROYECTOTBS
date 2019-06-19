@@ -1,4 +1,4 @@
-package com.example.tbs;
+package com.example.tbs.modelos_datainfo;
 
 import android.widget.CheckBox;
 import android.widget.ImageButton;

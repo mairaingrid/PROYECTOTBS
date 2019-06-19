@@ -10,6 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.tbs.adaptadores.adaptersmisamigos;
+import com.example.tbs.modelos_datainfo.modelsmisamigos;
+
 import java.util.ArrayList;
 import java.util.List;
 
