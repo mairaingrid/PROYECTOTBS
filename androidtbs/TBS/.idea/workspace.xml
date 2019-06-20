@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
   <component name="AndroidLayouts">
     <shared>
       <config />
     </shared>
   </component>
-<<<<<<< HEAD
-  <component name="ChangeListManager">
-    <list default="true" id="abeaf4d5-cf08-440b-b08d-691d58ef8ec8" name="Default Changelist" comment="">
-=======
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -566,7 +559,6 @@
 <<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="2c090a9d-647a-4c04-b6ca-2599a96fb114" name="Default Changelist" comment="">
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
@@ -619,13 +611,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-<<<<<<< HEAD
-    </list>
-=======
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tbs/MyAdapter.java" afterDir="false" />
     </list>
 >>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -640,11 +628,6 @@
     </system>
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_crear_cuenta.xml">
-=======
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -667,23 +650,11 @@
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subir_foto.xml">
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
           <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subir_foto.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
-=======
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tbs/subir_foto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -707,7 +678,6 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tbs/MyAdapter.java">
           <provider selected="true" editor-type-id="text-editor" />
 >>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
         </entry>
       </file>
     </leaf>
@@ -715,15 +685,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="y" value="3" />
-    <option name="width" value="652" />
-    <option name="height" value="749" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -753,14 +714,11 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
 >>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
       <pane id="ProjectPane" />
       <pane id="Scope" />
@@ -771,7 +729,6 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -799,33 +756,18 @@
               <item name="TBS" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-<<<<<<< HEAD
-=======
               <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="TBS" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="/Android/Sdk" />
-    <property name="device.picker.selection" value="c5f6d2f8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-=======
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,7 +780,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.tbs" />
     </key>
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -852,8 +793,6 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-=======
 =======
   <component name="ProjectFrameBounds">
     <option name="y" value="17" />
@@ -883,7 +822,6 @@
 =======
 >>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
 >>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -949,59 +887,12 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 >>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="abeaf4d5-cf08-440b-b08d-691d58ef8ec8" name="Default Changelist" comment="" />
-      <created>1560290049764</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1560290049764</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32988048" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32868218" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Drawable Viewer" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_crear_cuenta.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-=======
 <<<<<<< HEAD
       <changelist id="3c0b5e8e-1dce-45f5-8f17-9a3c87264a01" name="Default Changelist" comment="" />
       <created>1560298115688</created>
@@ -1095,18 +986,10 @@
         </state>
       </provider>
     </entry>
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_subir_foto.xml">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-  </component>
-=======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tbs/subir_foto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1165,5 +1048,4 @@
 =======
 >>>>>>> 2630681791c92d1c74e779b68a7b0b0d612ebf24
 >>>>>>> 452d163dd419dcb099e5d28e64c127d3abb82eca
->>>>>>> 34d41bbeb42aaa9993d6ab7f51f0c91df7c296be
 </project>

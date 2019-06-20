@@ -9,9 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.example.tbs.adaptadores.adaptersmiscitas;
-import com.example.tbs.modelos_datainfo.modelsmiscitas;
+import android.widget.ImageButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,8 +65,6 @@ public class miscitas extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-
-
         }
     }
 
@@ -86,20 +82,16 @@ public class miscitas extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        //      return inflater.inflate(R.layout.fragment_miscitas, container, false);
-        View vista = inflater.inflate(R.layout.fragment_miscitas, container, false);
+  //      return inflater.inflate(R.layout.fragment_miscitas, container, false);
+        View vista=inflater.inflate(R.layout.fragment_miscitas, container, false);
 //copiado
-
-
-        listarecycler = new ArrayList<>();
-        recicler = (RecyclerView) vista.findViewById(R.id.reciclermiscitas);
+        listarecycler= new ArrayList<>();
+        recicler=(RecyclerView)vista.findViewById(R.id.reciclermiscitas);
         recicler.setLayoutManager(new LinearLayoutManager(getContext()));
         obtencion();
         adaptersmiscitas adapter = new adaptersmiscitas(listarecycler);
         recicler.setAdapter(adapter);
         return vista;
-
-
     }
 
 

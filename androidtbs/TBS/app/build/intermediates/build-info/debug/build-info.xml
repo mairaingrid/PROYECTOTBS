@@ -5,9 +5,8 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.4.1"
-    timestamp="1560638237540"
+    timestamp="1560482019999"
     token="-8696670729824678235"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -19,91 +18,67 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="137" />
+        duration="0" />
     <task
         name="verifier"
-        duration="32" />
+        duration="0" />
 
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
     <artifact
         location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1560636785685"
+        timestamp="1560458141258"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1560638237540"
+        timestamp="1560479589576"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
@@ -111,19 +86,13 @@
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -131,9 +100,20 @@
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_REMOVED"
+        timestamp="1560481319754"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1560482019999"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />

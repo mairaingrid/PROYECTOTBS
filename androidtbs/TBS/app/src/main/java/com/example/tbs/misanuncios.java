@@ -10,9 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.tbs.adaptadores.adapters;
-import com.example.tbs.modelos_datainfo.models;
-
 import java.util.ArrayList;
 import java.util.List;
 

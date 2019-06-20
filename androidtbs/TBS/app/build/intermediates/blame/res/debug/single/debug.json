@@ -556,10 +556,6 @@
         "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/4cc25b35588229abf67396db14897254/res/color/mtrl_tabs_icon_color_selector_colored.xml"
     },
     {
-        "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/layout_fragment_micita.xml.flat",
-        "source": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/src/main/res/layout/fragment_micita.xml"
-    },
-    {
         "merged": "/home/debi/Escritorio/Carpeta sin título/PROYECTOTBS/androidtbs/TBS/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
         "source": "/home/debi/.gradle/caches/transforms-2/files-2.1/13cc4928a2cd550d92ac5cd7ad9d8f95/res/anim/abc_popup_enter.xml"
     },
