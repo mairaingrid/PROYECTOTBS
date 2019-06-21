@@ -1,6 +1,6 @@
 const mongoose = require("../connect");
 const Schema = mongoose.Schema;
-const usuarioSchema = Schema({
+const USUARIOSCHEMA = Schema({
   name:{
        type: String,
        require:[true, 'ingrese su  nombre'],
@@ -19,10 +19,15 @@ const usuarioSchema = Schema({
 
   password: {
        type:String,
-       require:['ingrese su contraseña'],
+       require:['Su contraseña debe tener como minimo seis caracteres ,mayusculas, minusculas y carcteres numericos '],
   },
+  registerDate: {
+        type: Date,
+        default: Date.now()
+
+    },
   })
 
-const usuario = mongoose.model("Usuario",usuarioSchema);
+const usuario = mongoose.model("Usuario",USUARIOSCHEMA);
 
-module.exports = usuario;
+module.exports = {model:usuario, schema: USUARIOSCHEMA};
