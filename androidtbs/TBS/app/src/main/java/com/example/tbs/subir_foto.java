@@ -44,6 +44,9 @@ public class subir_foto extends AppCompatActivity implements View.OnClickListene
         imagenadicional3.setOnClickListener(this);*/
 
     }
+    private void loadComponents(){
+
+    }
 
   /*  public void irpublicar(View v) {
         Intent ir_publicar= new Intent(this, publicar_anuncio.class);
@@ -52,7 +55,25 @@ public class subir_foto extends AppCompatActivity implements View.OnClickListene
     }*/
     @Override
     public void onClick(View v){
+        int id = v.getId();
+        switch (id) {
+            case R.id.galeria: {
         galeria();
+                }
+            break;
+
+
+            case R.id.usarcamara: {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    startCamera();
+                } else {
+                    startCam();
+                }
+                break;
+
+            }
+        }
+        }
         //esto hace que la imAGEN chica al seleccionarse tiene que actualizarse en la principal
         /*switch (v.getId()){
             case R.id.imagenadicional1:
