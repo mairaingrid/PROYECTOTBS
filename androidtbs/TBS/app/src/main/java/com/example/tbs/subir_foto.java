@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -24,6 +25,7 @@ public class subir_foto extends AppCompatActivity implements View.OnClickListene
     ImageView imagenadicional2;
     ImageView imagenadicional3;*/
     Button galeria;
+    Button camara;
     int movil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,8 @@ public class subir_foto extends AppCompatActivity implements View.OnClickListene
         imagenadicional2 = (ImageView) findViewById(R.id.imagenadicional2);
         imagenadicional3 = (ImageView) findViewById(R.id.imagenadicional3);*/
         galeria = (Button) findViewById(R.id.galeria);
+        Button  camera = (Button) findViewById(R.id.usarcamara);
+        camera.setOnClickListener(this);
 
       /*  imagenadicional1.setOnClickListener(this);
         imagenadicional2.setOnClickListener(this);
