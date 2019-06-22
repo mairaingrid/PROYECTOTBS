@@ -105,6 +105,53 @@ public class subir_foto extends AppCompatActivity implements View.OnClickListene
                 break;
 
 */
+    private boolean checkPermission(String permisso){
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
+                Integer result = this.checkSelfPermission(permisso);
+                return result == PackageManager.PERMISSION_GRANTED;
+            }
+            return false;
+
+        }
+        private  void startCall(){
+            TextView txt = findViewById(R.id.usarcamara);
+            Intent call = new Intent(Intent.ACTION_CALL, Uri.parse("tel: " + txt.getText().toString()));
+            startActivity(call);
+
+
+        }
+        private void startCam(){
+            Intent camera = new Intent("android.media.action.IMAGE_CAPTURE");
+            startActivity(camera);
+        }
+        private void startCamera(){
+            if (checkPermission(Manifest.permission.CAMERA)){
+                setCameraPermission();
+            }else {
+                startCam();
+
+            }
+        }
+    private void setCameraPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(new String[]{Manifest.permission.CAMERA}, CAMERA_CODE);
+        }
+    }
+
+            @Override
+            public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+                if (requestCode == CAMERA_CODE){
+                    if (permissions.equals(Manifest.permission.CAMERA)){
+                        if (grantResults[0]== PackageManager.PERMISSION_GRANTED)
+                            startCam();
+
+                    }
+
+                }
+                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+           
+    
         }
 
     @SuppressLint("IntentReset")
