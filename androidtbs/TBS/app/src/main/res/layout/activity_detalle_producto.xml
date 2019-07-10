@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleProductoActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fechaText"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="52dp"
+                android:text="Registro"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/stockText"
+                app:layout_constraintTop_toBottomOf="@+id/precioText" />
+
+            <TextView
+                android:id="@+id/stockText"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="12dp"
+                android:text="Stock"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/precioText"
+                app:layout_constraintTop_toBottomOf="@+id/precioText" />
+
+            <TextView
+                android:id="@+id/estadoText"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:text="Estado"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/categoriaText"
+                app:layout_constraintTop_toBottomOf="@+id/categoriaText" />
+
+            <TextView
+                android:id="@+id/precioText"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:text="Precio"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/estadoText"
+                app:layout_constraintTop_toBottomOf="@+id/estadoText" />
+
+            <TextView
+                android:id="@+id/categoriaText"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginTop="16dp"
+                android:text="Categoria"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/descripcionText"
+                app:layout_constraintTop_toBottomOf="@+id/descripcionText" />
+
+            <TextView
+                android:id="@+id/descripcionText"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginTop="16dp"
+                android:text="Descripcion"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/nombreText"
+                app:layout_constraintTop_toBottomOf="@+id/nombreText" />
+
+            <ImageView
+                android:id="@+id/fotoImage"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detalleText"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <TextView
+                android:id="@+id/detalleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Detalle Producto"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nombreText"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:text="nombre"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fotoImage" />
+
+
+
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fechaText"
+                android:layout_height="300dp"
+                android:layout_width="match_parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
