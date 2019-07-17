@@ -1,141 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
     android:layout_height="180dp">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/card"
-        android:layout_width="348dp"
-        android:layout_height="164dp"
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:foreground="?selectableItemBackground"
-        android:visibility="visible"
-        app:cardBackgroundColor="@color/colorPrimary"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07999998">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="172dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imgmiscitas"
-                android:layout_width="136dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="?attr/actionModeShareDrawable" />
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="8dp">
 
             <LinearLayout
-                android:layout_width="216dp"
+                android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:orientation="vertical">
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingStart="10dp">
 
                 <TextView
-                    android:id="@+id/nombremiscitas"
+                    android:id="@+id/nombreText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#0ECE15"
+                    android:textSize="18sp" />
 
-                    android:text="FRUTA"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
-                    android:textColor="@color/design_default_color_primary_dark"
-                    android:textSize="40dp"
-                    android:visibility="visible" />
-
-                <LinearLayout
+                <TextView
+                    android:id="@+id/descripcionText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:text="TextView" />
 
-                    <TextView
-                        android:id="@+id/descripcionmiscitas"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="PRECIO" />
-
-                    <TextView
-                        android:id="@+id/preciomisanuncios"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView" />
-                </LinearLayout>
-
-                <LinearLayout
+                <TextView
+                    android:id="@+id/precioText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:text="TextView" />
 
-                    <TextView
-                        android:id="@+id/TEXTvIAS11"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="CANTIDAD" />
-
-                    <TextView
-                        android:id="@+id/cantidadmisanuncios"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView" />
-                </LinearLayout>
-
-                <LinearLayout
+                <TextView
+                    android:id="@+id/stockText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:text="TextView" />
 
-                    <TextView
-                        android:id="@+id/TELEFONO"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TELEFONO" />
-
-                    <TextView
-                        android:id="@+id/telefonomisanuncios"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView" />
-                </LinearLayout>
-
-                <LinearLayout
+                <TextView
+                    android:id="@+id/categoriaText"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
 
-                    <TextView
-                        android:id="@+id/textView11"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="DESCRIPCION" />
+                <TextView
+                    android:id="@+id/estado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/descripcionmisanuncios"
-                        android:layout_width="match_parent"
-                        android:layout_height="35dp"
-                        android:text="DESCRIPCION" />
-                </LinearLayout>
+            <ImageView
+                android:id="@+id/fotoImage"
+                android:layout_width="51dp"
+                android:layout_height="89dp"
+                android:layout_weight="2"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/editarImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="8dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+
+                <ImageView
+                    android:id="@+id/eliminarImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    app:srcCompat="@android:drawable/ic_menu_delete" />
 
             </LinearLayout>
 
         </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-    </android.support.v7.widget.CardView>
-
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
