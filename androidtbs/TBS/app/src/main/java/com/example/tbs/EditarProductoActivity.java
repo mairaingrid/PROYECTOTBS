@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.tbs.Utils.Data;
+import com.example.tbs.perfiles.ItemProducto;
+import com.example.tbs.productoprincipal.PaginaPrincipalVendedorActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.loopj.android.http.AsyncHttpClient;
@@ -81,7 +83,7 @@ public class EditarProductoActivity extends AppCompatActivity {
 
                             if (ob.getString("message") != null){
                                 Toast.makeText(EditarProductoActivity.this, ob.getString("message"), Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(EditarProductoActivity.this,PaginaPrincipalVendedorActivity.class);
+                                Intent intent = new Intent(EditarProductoActivity.this, PaginaPrincipalVendedorActivity.class);
                                 startActivity(intent);
                             }
 
@@ -123,8 +125,8 @@ public class EditarProductoActivity extends AppCompatActivity {
                     p.setCategoria(ob.getString("categoria"));
                     p.setEstado(ob.getString("estado"));
                     p.setFoto(ob.getString("foto"));
-                    p.setPrecio(ob.getDouble("precio"));
-                    p.setStock(ob.getInt("stock"));
+                    p.setPrecio(ob.getString("precio"));
+                    p.setStock(ob.getString("stock"));
                     p.setRegistro(ob.getString("fechaRegistro"));
                     p.setLat(ob.getDouble("lat"));
                     p.setLog(ob.getDouble("log"));
